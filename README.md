@@ -43,5 +43,7 @@ Working directory:
 30. You may say, master branch is now left behind. What to do next is to merge the changes from branch_name to master branch.
 
 31. If you want to merge branch to master, switch active branch to master via git checkout first.
+32. Reminder: please ensure you commit every changes made in your current branch before you checkout to other branch.
+
 
 
