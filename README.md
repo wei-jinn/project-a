@@ -20,6 +20,16 @@ Working directory:
 9. git diff - to check exact difference between working directory and local repository.
 10. git add .
 11. git commit -m "short message about the commit attempt"
+12. At this point, if git status returns "working tree clean", then your working directory and local repository is now tally, at the same page.
 
-12. At this point, 
+13. Connect local repository to the remote repository created in step 6.
+14. git remote -v : to view all linked remote git repo
+15. git remote add repo_name repo_url
+16. before pushing anything to remote repository, pull first.
+17. git pull repo_name/origin master: pull everything from current remote repository master branch
+18. If unsuccessful, execute step 17 by: git pull repo_name --allow-unrelated-histories master
+19. git push -u repo_name/origin master
+
+ 
+
 
