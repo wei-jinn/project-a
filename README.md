@@ -24,7 +24,7 @@ Working directory:
 
 13. Connect local repository to the remote repository created in step 6.
 14. git remote -v : to view all linked remote git repo
-15. git remote add repo_name repo_url
+15. git remote add repo_name repo_url (REPO_NAME, BRANCH_NAME ARE ALL CASE SENSITIVE)
 16. before pushing anything to remote repository, pull first.
 17. git pull repo_name/origin master: pull everything from current remote repository master branch
 18. If unsuccessful, execute step 17 by: git pull repo_name --allow-unrelated-histories master
@@ -42,6 +42,6 @@ Working directory:
 29. At this point, the latest changes you have made since step 24 is now recorded in both local branch_name and remote branch_name but none of the master.
 30. You may say, master branch is now left behind. What to do next is to merge the changes from branch_name to master branch.
 
-31. 
+31. If you want to merge branch to master, switch active branch to master via git checkout first.
 
 
