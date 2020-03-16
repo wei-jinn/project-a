@@ -1,2 +1,15 @@
 This is an introductory section.
 Kindly leave some comments here.
+
+
+--------------------------------
+
+When branch A-01 has 1 commit ahead of master, which is now at step 32 in README while master has only 12 steps,
+We add these two lines in master branch, introduction file.
+
+Currently, master branch has some changes that branch A-01 does not have.
+Before carrying out any merging, we need to pull every changes from the master branch first.
+
+LINES ABOVE WILL BE ADDED TO README STEPS LATER.
+
+--------------------------------
